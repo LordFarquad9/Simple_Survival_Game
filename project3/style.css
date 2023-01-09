@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(102, 184, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#debug {
+    position: fixed;
+    right: 10px;
+    opacity: 0%;
+}
+
+#score {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: xx-large;
+}
+
+#energy {
+    position: fixed;
+    left: 200px;
+    top: 20px;
+    font-size: xx-large;
+}
+
+#hydration {
+    position: fixed;
+    left: 410px;
+    top: 20px;
+    font-size: xx-large;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    table-layout: fixed;
+    width: max-content;
+}
+td {
+    width: 20px;
+    height: 20px;
+}
+
+/* tiles */
+.tan {
+    background-color: rgb(245, 232, 199);
+}
+.green {
+    background-color: rgb(109, 160, 108);
+}
+.blue {
+    background-color: rgb(160, 195, 210);
+}
+.red {
+    background-color: rgb(224, 93, 93);
+}
+.black {
+    background-color: black;
+}
+.brown {
+    background-color: rgb(134, 86, 37);
+}
+.grey {
+    background-color: rgb(163, 138, 138);
+}
+.yellow {
+    background-color: rgb(236, 213, 83);
+}
+.white {
+    background-color: rgb(247, 245, 235);
+}
